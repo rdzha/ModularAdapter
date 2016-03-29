@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SampleActivity">
+    <item
+        android:id="@+id/action_sel_animals"
+        android:orderInCategory="100"
+        android:title="@string/animals"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_sel_vegetables"
+        android:orderInCategory="100"
+        android:title="@string/vegs"
+        app:showAsAction="ifRoom" />
+</menu>
